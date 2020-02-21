@@ -1,0 +1,275 @@
+.logo-wiki {
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    background-image: url('../../img/icon.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    margin: 10px auto;
+    width: 630px;
+    max-width: 100%;
+    height: 300px;
+}
+
+.row {
+    height: 63px;
+}
+
+.left {
+    text-align: center;
+    float: left;
+}
+
+.right {
+    text-align: center;
+    float: right;
+}
+
+.languajes {
+    font-size: 15px;
+    font-weight: bold;
+    color: #36c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.languajes:hover {
+    text-decoration: underline;
+}
+
+.articles {
+    font-size: 12px;
+    color: #54595d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.space-left-1-5 {
+    margin-left: 120px;
+}
+
+.space-left-2-4 {
+    margin-left: 90px;
+}
+
+.space-left-3 {
+    margin-left: 70px;
+}
+
+.space-right-1-5 {
+    margin-right: 120px;
+}
+
+.space-right-2-4 {
+    margin-right: 90px;
+}
+
+.space-right-3 {
+    margin-right: 70px;
+}
+
+.main-container {
+    width: 630px;
+    max-width: 100%;
+    margin-top: 30px;
+    height: 60px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-content {
+    width: 320px;
+    height: 45px;
+    font-size: 15px;
+    border-right: none;
+    border-left: solid #a2a9b1 1px;
+    border-top: solid #a2a9b1 1px;
+    border-bottom: solid #a2a9b1 1px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.select-languajes {
+    width: 70px;
+    height: 49px;
+    border-right: none;
+    border-left: none;
+    border-top: solid #a2a9b1 1px;
+    border-bottom: solid #a2a9b1 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a2a9b1;
+}
+
+.buttons {
+    width: 50px;
+    height: 49px;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDov%0D%0AL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAw%0D%0AIDIwIDIwIj4KCTx0aXRsZT4KCQlTZWFyY2ggaWNvbgoJPC90aXRsZT4KCTxwYXRoIGZpbGw9IiNm%0D%0AZmYiIGQ9Ik0xOS43NCAxNy43NWwtNS4zLTUuMy0uMzctLjIyYTcuNjYgNy42NiAwIDAgMCAxLjQz%0D%0ALTQuNDhBNy43NiA3Ljc2IDAgMCAwIDcuNzUgMGE3Ljc1IDcuNzUgMCAwIDAtNS40OCAxMy4yNCA3%0D%0ALjc1IDcuNzUgMCAwIDAgNS40OCAyLjI3IDcuNzIgNy43MiAwIDAgMCA0LjQ5LTEuNDRsLjIxLjM4%0D%0AIDUuMyA1LjNjLjQyLjQgMS4yLjMxIDEuNzYtLjI0LjU1LS41Ni42NS0xLjM0LjIzLTEuNzd2LjAx%0D%0Aek03Ljc1IDEyLjY5YTQuOTQgNC45NCAwIDAgMS00Ljk0LTQuOTQgNC45NSA0Ljk1IDAgMCAxIDQu%0D%0AOTQtNC45MyA0Ljk0IDQuOTQgMCAwIDEgNC45NCA0LjkzIDQuOTQgNC45NCAwIDAgMS00Ljk0IDQu%0D%0AOTR6Ii8+Cjwvc3ZnPgo=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #36c;
+    border-left: none;
+    border-top: solid #36c 1px;
+    border-bottom: solid #36c 1px;
+    border-right: solid #36c 1px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.main-sesion-language {
+    width: 450px;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr {
+    width: 70px;
+}
+
+.image-lenguages {
+    width: 23px;
+    height: 23px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.button_lenguages {
+    width: 270px;
+    height: 30px;
+    cursor: pointer;
+    background: #f8f9fa;
+    color: #36c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    border: solid #a2a9b1 1px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button_lenguages:hover {
+    border: solid #36c 2px;
+    background: white;
+}
+
+.container-footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.container-left {
+    width: 35%;
+    margin: 30px;
+}
+
+.element-left-one {
+    width: auto;
+    height: 90px;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-footer {
+    margin-right: 20px;
+}
+
+.anclaje-footer {
+    text-decoration: none;
+}
+
+.anclaje-footer:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title-anclaje-footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #36c;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.title-anclaje-footer:hover {
+    text-decoration: underline;
+}
+
+.imagen-footer-news {
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.element-left-two {
+    background: #f8f9fa;
+    width: auto;
+    height: auto;
+}
+
+.text-footer-left {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.img-padding {
+    padding-left: 60px;
+}
+
+.text-footer-left-padding {
+    padding-left: 60px;
+}
+
+.container-right {
+    width: 65%;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.row-footer {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.column {
+    width: 33%;
+    height: 130px;
+    display: flex;
+}
+
+.title-anclaje-right {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.text-footer {
+    margin-top: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #54595d;
+    font-weight: normal;
+}
+
+.footer-final {
+    width: 100%;
+    height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #54595d;
+    font-weight: normal;
+    justify-items: center;
+    text-align: center;
+}
